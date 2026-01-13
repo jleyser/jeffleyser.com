@@ -1,7 +1,7 @@
 ---
 import clients from "../collections/clients.json";
 import PageHeading from "../components/page-heading.astro";
-import Clients from "../components/clients.astro";
+import Client from "../components/clients.astro";
 import Layout from "../layouts/main.astro";
 ---
 
@@ -18,7 +18,7 @@ import Layout from "../layouts/main.astro";
       {
         clients.map((client) => {
           return (
-            <Clients
+            <Client
               name={client.name}
               description={client.description}
               image={client.image}

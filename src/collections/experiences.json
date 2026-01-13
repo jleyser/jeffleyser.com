@@ -1,23 +1,23 @@
 [
 	{
-		"dates": "June 2018 · Present",
-		"role": "Front-end Engineer",
-		"company": "Full Truck Alliance",
-		"description": "Responsible for customer service and CRM system front-end development.",
-		"logo": "/assets/images/experiences/fta.ico"
+		"dates": "March 2024 · Present",
+		"role": "Independant Cloud Consultant",
+		"company": "EngEQ, LLC",
+		"description": "Led Cloud Migrations, and FinOps consulting",
+		"logo": "/assets/images/experiences/engeq.ico"
 	},
 	{
-		"dates": "July 2015 · June 2018",
-		"role": "Front-end Engineer",
-		"company": "YOHO!",
-		"description": "Responsible for mobile front-end development of e-commerce platform.",
-		"logo": "/assets/images/experiences/yoho.ico"
+		"dates": "July 2016 · March 2024",
+		"role": "Director, SRE",
+		"company": "Zillow",
+		"description": "Led 30+ Site Reliability Engineers",
+		"logo": "/assets/images/experiences/zonly.jpg"
 	},
 	{
-		"dates": "September 2014 · July 2015 ",
-		"role": "Node.JS Developer",
-		"company": "WuLian",
-		"description": "Intern, involved in the development of Internet of Things cloud systems.",
-		"logo": "/assets/images/experiences/wulian.ico"
+		"dates": "Jan 2009 · July 2016 ",
+		"role": "Idenpendant DevOps Engineer",
+		"company": "BSR Software",
+		"description": "Provided DevOps services to a number of clients.",
+		"logo": "/assets/images/experiences/BSR.ico"
 	}
 ]
