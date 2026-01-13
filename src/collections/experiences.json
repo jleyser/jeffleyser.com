@@ -11,13 +11,13 @@
 		"role": "Director, SRE",
 		"company": "Zillow",
 		"description": "Led 30+ Site Reliability Engineers",
-		"logo": "/assets/images/experiences/zonly.jpg"
+		"logo": "/assets/images/experiences/zillow.ico"
 	},
 	{
 		"dates": "Jan 2009 · July 2016 ",
 		"role": "Idenpendant DevOps Engineer",
 		"company": "BSR Software",
 		"description": "Provided DevOps services to a number of clients.",
-		"logo": "/assets/images/experiences/BSR.ico"
+		"logo": "/assets/images/experiences/bsr.ico"
 	}
 ]
