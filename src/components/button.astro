@@ -1,10 +1,20 @@
 ---
-const { link, text } = Astro.props;
+const { link, text, type, size, block } = Astro.props;
+
+const baseClass = "inline-flex items-center justify-center font-semibold duration-300 ease-out border rounded-full bg-neutral-900 dark:bg-white dark:text-neutral-900 text-neutral-100 hover:border-neutral-700 border-neutral-900 dark:hover:border-neutral-300 hover:bg-white dark:hover:bg-black dark:hover:text-white hover:text-neutral-900";
+const sizeClass = size === "lg" ? "px-6 py-3 text-sm" : "px-4 py-2 text-xs";
+const blockClass = block ? "w-full" : "w-auto";
+const marginClass = type ? "" : "mt-5";
+
+const className = `${baseClass} ${sizeClass} ${blockClass} ${marginClass}`;
 ---
 
-<a
-  href={link}
-  class="inline-flex w-auto px-4 py-2 mt-5 text-xs font-semibold duration-300 ease-out border rounded-full bg-neutral-900 dark:bg-white dark:text-neutral-900 text-neutral-100 hover:border-neutral-700 border-neutral-900 dark:hover:border-neutral-300 hover:bg-white dark:hover:bg-black dark:hover:text-white hover:text-neutral-900"
->
-  {text}
-</a>
+{type ? (
+  <button type={type} class={className}>
+    <slot>{text}</slot>
+  </button>
+) : (
+  <a href={link} class={className}>
+    <slot>{text}</slot>
+  </a>
+)}
