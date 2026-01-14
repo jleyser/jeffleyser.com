@@ -12,6 +12,10 @@
 		"url": "/clients"
 	},
 	{
+		"name": "Contact Me",
+		"url": "/contact"
+	},
+	{
 		"name": "About",
 		"url": "/about"
 	}
