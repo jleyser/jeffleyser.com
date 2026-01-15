@@ -1,0 +1,29 @@
+---
+import logos from "../../collections/logos.json";
+import Button from "../button.astro";
+import Logo from "../logos.astro";
+---
+
+<section class="max-w-4xl mx-auto px-4 lg:px-0">
+    <br/>
+    <p class="mt-10 -mb-5 font-semibold text-base text-neutral-800 dark:text-neutral-200">
+            Clients I've consulted:
+  </p>
+  <div
+    class="grid items-stretch w-full grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 mt-3"
+  >
+    {
+      logos.map((logo) => {
+        return (
+          <Logo
+            name={logo.name}
+            description={logo.description}
+            image={logo.image}
+            url={logo.url}
+          />
+        )
+      })
+    }
+  </div>
+
+</section>

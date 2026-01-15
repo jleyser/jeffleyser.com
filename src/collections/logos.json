@@ -1,0 +1,22 @@
+[
+	{
+		"name": "Zillow",
+		"image": "/assets/images/logos/zillow-logo.png",
+		"url": "https://zillow.com"
+	},
+	{
+		"name": "NeighborShare",
+		"image": "/assets/images/logos/nbshare-logo.png",
+		"url": "https://nbshare.org"
+	},
+	{
+		"name": "Metafilter",
+		"image": "/assets/images/logos/metafilter-logo.png",
+		"url": "https://metafilter.com"
+	},
+	{
+		"name": "Modern Retail",
+		"image": "/assets/images/logos/modernretail-logo.png",
+		"url": "https://modernretail.com"
+	}
+]

@@ -1,12 +1,13 @@
 ---
 import Button from "../components/button.astro";
+import Logos from "../components/home/logos.astro";
 import Clients from "../components/home/clients.astro";
 import Separator from "../components/home/separator.astro";
 import Writings from "../components/home/writings.astro";
 import Layout from "../layouts/main.astro";
 ---
 
-<Layout title="Kai">
+<Layout title="Jeff Leyser">
   <div
     class="relative z-20 w-full max-w-4xl mx-auto mt-16 px-7 md:mt-24 lg:mt-32 xl:px-0"
   >
@@ -59,6 +60,7 @@ import Layout from "../layouts/main.astro";
     </div>
   </div>
 
+  <Logos />
   <Separator text="Check out my clients" />
   <Clients />
   <Separator text="Some of my writing" />
